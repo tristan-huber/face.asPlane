@@ -7,15 +7,16 @@
   "ioValues": [
     {
       "name": "faces",
-      "ioValue": 10
+      "ioValue": "__GEOMETRY_INPUT__"
     },
     {
       "name": "u",
-      "ioValue": 10
+      "ioValue": 0.5
     },
     {
       "name": "v",
-      "ioValue": 10
+      "ioValue": 0.5,
+      "currentEquation": "0.5"
     },
     {
       "name": "xDir",
@@ -48,11 +49,11 @@
         },
         {
           "name": "u",
-          "ioValue": 10
+          "ioValue": 0.5
         },
         {
           "name": "v",
-          "ioValue": 10
+          "ioValue": 0.5
         },
         {
           "name": "xPos",
@@ -66,28 +67,29 @@
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.24,
+      "y": 0.20571428571428574,
       "uniqueID": "id-126",
-      "name": "faces"
+      "name": "faces",
+      "type": "geometry"
     },
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.42857142857142855,
+      "y": 0.3028571428571429,
       "uniqueID": "id-129",
       "name": "u"
     },
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.5125714285714286,
+      "y": 0.4142857142857143,
       "uniqueID": "id-132",
       "name": "v"
     },
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.5965714285714285,
+      "y": 0.5714285714285714,
       "uniqueID": "id-135",
       "name": "xDir",
       "type": "array"
