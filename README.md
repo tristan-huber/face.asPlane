@@ -6,9 +6,9 @@
 
 ## Inputs
 
-- **faces** (number)
+- **faces** (geometry)
 - **u** (number)
-- **v** (undefined)
+- **v** (number)
 - **xDir** (array)
 
 
